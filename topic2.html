@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      
+      <meta charset="utf-8">
+      <title>My Webpage </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body background="bgg.jpg">
+   
+          <div class="dropdwn">
+          
+              <nav>
+                  <img class="logo" src="logogo.png" width="350" height="70">
+         <ul>
+            <li><a class="active" href="index.html">About me!</a></li>
+            <li>
+               <a href="#">Topic
+               <i class="fas fa-caret-down"></i>
+               </a>
+               <ul>
+                  <li><a href="topic1.html">Lesson 1</a></li>
+                  <li><a href="topic2">Lesson 2</a></li>
+                  <li><a href="topic3.html">Lesson 3</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#">Contacts
+               <i class="fas fa-caret-down"></i>
+               </a>
+               <ul>
+                  <li><a href="facebook.html">Facebook</a></li>
+                  <li><a href="insta.html">Instagram</a></li>
+                       <li><a href="phone.html">Phone</a></li>
+                        
+                     </ul>
+                     <li>
+               <a href="#">History
+               <i class="fas fa-caret-down"></i>
+               </a>
+               <ul>
+                  <li><a href="history1.html">History1</a></li>
+                  <li><a href="history2.html">History2</a></li>
+                       <li><a href="history3.html">History3</a></li>
+                           
+                        </nav>
+                        </div>
+                       <div class="body">
+                          
+      </div>
+      <center>
+          
+          <h1 style="font-size:40px; background-color: #6E260E;color:white;"> Lesson 2</h1>
+       <h1 style="color: darkred;">INSERTING IMAGES</h1>
+          <p style="color: white;">
+              Pictures that you put on your web page are called images. They are usually in the .png, .jpeg (or .jpg) or .GIF formats, which you can create using any number of applications, including Paint (which comes with Windows), GIMP (which is free to download and install), and commerical products such as PhotoShop.
+
+Tags
+The tag used for inserting a picture is quite simple:
+
+
+Positions the picture as so:
+
+You do not need to include the style part if you don't want the text to wrap around the picture. Using float: right will put the picture on the right of the screen. The text will then flow around the left of the picture.  Similarly, float: right will place the image on the left and wrap the text around it. You can also include optional height and width values (see below).
+
+The src part gives the name of the file that contains the picture. For the browser to find the picture, you need to either put the file in the same folder as the HTML file, or include the folder name in the tag.
+
+Background Images
+You may want to include a background image on your web page. This is a picture that goes behind any text or other pictures that appear on your page, and would most commonly be used to give the background a texture, such as a marbled finish. The picture doesn't need to be as big as your page. If the picture is small, the web browser "tiles" (repeats) it to cover the whole of the background.
+
+You don't use the <img> tag to insert a background image. They are inserted in the <body> tag at the top of your HTML file, again using CSS style definitions, e.g.:
+
+
+Again, you need to make sure that either you include the full path to the file, or that it is in the same folder as the HTML file.
+
+You can also use the <body> tag to change the background and text colours of your web page as follows:
+
+These are the colours used on this page (note the American spelling of "color" in the tag). All colours are made up of six digits, two each for the amount of red, green and blue that you want to use.
+
+Because HTML uses a number system called hexadecimal, the digits go from 0 to 9, and then from A-F, so the smallest number is 00 and the largest is FF. The colours work like light, rather than paint; the higher the number the lighter the colour. So, #000000 would give you black, #FF0000 would be bright red, #00FF00 would be bright green, etc.
+
+If you can't be bothered to work out the colour values yourself, you can download a colour mixer from the VisualBASIC section of the site.
+
+Height and Width
+When you insert a picture, it appears on the web page the same size as would do when you view it in Paint or Photo Editor. If you want to change the size of the picture without editing the jpeg or GIF file, you can use CSS styles with the <img> tag to set the height and width in pixels. For example, the following HTML tags give the following results:
+
+
+          </p>
+           <img src="topicsample2.jpg" width="80%" height="300">
+            <h3 style="color: white;">https://youtu.be/Hh_se2Zqsdk</h3>
+             <h1 style="font-size:40px; background-color: #6E260E;color:white;">HTML TABLE  
+    </h1>
+    <p style="color: white;">
+        When you're building a project that needs to represent data visually, you will need a good way to display the information so it's easy to read and understand.
+
+Now, depending on the type of data, you can select between different representation methods using HTML elements.
+
+In most cases, tables are more convenient to display large amounts of structured data nicely. That’s why, in this article, we are going to learn how to use tables in HTML and then how to style them.
+
+Here's an Interactive Scrim about HTML Tables
+
+But, first things first – what is a table in HTML?
+
+What is a Table in HTML?
+A table is a representation of data arranged in rows and columns. Really, it's more like a spreadsheet. In HTML, with the help of tables, you can arrange data like images, text, links and so on into rows and columns of cells.
+
+The use of tables in the web has become more popular recently because of the amazing HTML table tags that make it easier to create and design them.
+
+To create a table in HTML you will need to use tags. The most important one is the <table> tag which is the main container of the table. It shows where the table will begin and where it ends</p>
+
+<table border="double">
+  <tr>
+      <p style="color: white;">Sample 1
+      <br>
+    <td>Rald</td>
+    <td>Alfred</td>
+    <td>Doon</td>
+  </tr>
+  <tr>
+    <td>Doon</td>
+    <td>Alfred</td>
+    <td>Rald</td>
+  </tr>
+</table>
+</p>
+<br>
+<br>
+<p style="color: white;">Sample 2
+<table border>
+  <tr>
+    <th></th>
+    <th scope="col">Semester</th>
+    <th scope="col">Grade</th>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>Jan - April</td>
+    <td>Credit</td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>May - August</td>
+    <td>Pass</td>
+  </tr>
+    
+  <tr>
+    <td>2</td>
+    <td>September - December</td>
+    <td>Distinction</td>
+  </tr>
+</table>
+</p>
+ <br>
+      <br>
+      <br>
+      <INPUT TYPE="button" VALUE="Back" onClick="history.go(-1);">
+          
+      </center>
+      </div>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+           
+               </ul>
+            </li>
+         </ul>
+     
+   </body>
+</html>
